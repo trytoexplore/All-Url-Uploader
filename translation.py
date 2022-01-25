@@ -2,7 +2,7 @@ class Translation(object):
     START_TEXT = """Hi {},
 I'm All URL Uploader!
 You can upload File|Video To Telegram with direct link, Using this bot!
-Support Sites <a href="https://ytdl-org.github.io/youtube-dl/supportedsites.html">HERE</a>
+Support Sites <a href="https:///youtube-dl/supportedsites.html">HERE</a>
 /help for more details!"""
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
@@ -16,11 +16,11 @@ URL | filename | username | password"""
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     CUSTOM_CAPTION_UL_FILE = "{}"
     NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
-    ABOUT_MSG = """ Something About Me :
+    ABOUT_MSG = """ About Me :
     
-   ☞My Name  : All Url Uploader Bot
+   ☞My Name  : Multi Url Uploader Bot
 
-   ☞Updates  : @TMWAD    
+   ☞Updates  : @LG_Bot_Updates    
 
    ☞Language : Python3
 
@@ -35,7 +35,7 @@ URL | filename | username | password"""
    Video  - Give File as video without Screenshots
    File   - Give File without Screenshots
 
-If bot didn't respond, Ask Here @TMWAD"""
+If bot didn't respond, Ask Here @LG_Bot_Updates"""
     REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Reply /generatecustomthumbnail to a media album, to generate custom thumbail"
     ERR_ONLY_TWO_MEDIA_IN_ALBUM = """Media Album should contain only two photos. Please re-send the media album, and then try again, or send only two photos in an album."
 You can use /rename command after receiving file to rename it with custom thumbnail support.
